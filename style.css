@@ -1,0 +1,118 @@
+body {
+  /* overflow-x: hidden; */
+}
+.bg-red {
+  background-color: #ee1d23 !important;
+}
+.ms-n5 {
+  margin-left: -45px !important;
+}
+.navlinkc {
+  font-style: bold !important;
+}
+.font-bold {
+  font-weight: bold !important;
+}
+.carousel-height-width {
+  width: 100% !important;
+  height: 470px !important;
+  object-fit: fill !important;
+}
+.card {
+  /* border: 0 !important; */
+  border-radius: 10px;
+}
+.hero-height .card {
+  /* background-color: transparent !important;   */
+}
+.border-red {
+  border-bottom: 2px solid rgb(236 48 48);
+}
+.hero-height {
+  max-height: 550px !important;
+  overflow: auto;
+}
+.bg-danger {
+  background-color: rgb(236 48 48) !important;
+}
+.bg-gray {
+  background-color: rgb(232, 232, 232);
+}
+.border-light {
+  border-right: 1px solid #ffff;
+}
+.owl-carousel {
+  display: block !important;
+}
+.testimonial-img {
+  width: 80px !important;
+  height: 80px !important;
+  object-fit: cover;
+}
+.user-image {
+  display: flex;
+  justify-content: center;
+}
+.achievement-section {
+  height: 400px;
+  background: url("https://images.pexels.com/photos/315843/pexels-photo-315843.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
+    no-repeat;
+  background-position: center;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  background-size: cover;
+}
+.testimonial-name {
+  padding: 10px 0px;
+}
+.bg-primary {
+  background-color: #0d4ca0 !important;
+}
+.btn-primary {
+  background-color: #0d4ca0 !important;
+}
+.text-primary {
+  color: #0d4ca0 !important;
+}
+.border-primary {
+  border-color: #0d4ca0 !important;
+}
+.text-danger {
+  color: rgb(236 48 48) !important;
+}
+.btn-danger {
+  background-color: rgb(236 48 48) !important;
+}
+.service-card:hover {
+  background-color: #0d4ca0;
+  color: white;
+  transition: all 0.5s;
+}
+.service-card:hover .service-name {
+  transition: all 0.5s;
+  color: white !important;
+}
+.news-card-img {
+  object-fit: cover;
+  max-height: 200px;
+  transition: transform 0.4s ease-in-out;
+}
+.news-item:hover .news-card-img {
+  transform: scale(1.2);
+}
+.partner-img {
+  object-fit: cover;
+}
+/* .dropdown-toggle::after {
+  display: inline-block !important;
+  margin-left: 0.255em !important;
+  vertical-align: 0.255em !important;
+  content: "" !important;
+  border-top: 0.3em solid !important;
+  border-right: 0.3em solid transparent !important;
+  border-bottom: 0 !important;
+  border-left: 0.3em solid transparent !important;
+} */
+.list-group-flush > .list-group-item {
+  border-color: #0d4ca0;
+}

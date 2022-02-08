@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../resources/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../resources/fontawesome/all.min.css" />
+    <link rel="stylesheet" href="../services-styles.css" />
+    <link
+      rel="stylesheet"
+      href="../resources/owlcarousel/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../resources/owlcarousel/owl.theme.default.min.css"
+    />
+    <title>Graphics Marg</title>
+  </head>
+  <body class="bg-gray">
+    <!-- Nav -->
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light bg-red m-0 p-0 bg-light"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand d-none d-md-block m-0 p-0" href="#">
+          <img
+            src="https://raaznn.github.io/graphic-marg/assets/img/logo.PNG"
+            alt="CoolBrand"
+            class="img-fluid"
+          />
+        </a>
+        <a class="navbar-brand d-md-none m-0 p-0" href="#">
+          <img
+            src="../resources/images/small-logo.PNG"
+            alt="CoolBrand"
+            class="img-fluid"
+            style="width: 100px; height: 100px"
+          />
+        </a>
+        <button
+          class="navbar-toggler text-dark"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon text-light"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link d-flex flex-column text-center font-bold text-white"
+                href="./src/services.html"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span>Our Services</span>
+                <span>हामीले गर्ने कामहरु</span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Bussiness & Company</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Accounting & Taxation</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Designing & Printing</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Others</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-flex flex-column text-center font-bold text-white"
+                href="#"
+              >
+                <span>About Us</span>
+                <span> हाम्रो बारेमा </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-flex flex-column text-center font-bold text-white"
+                href="#"
+              >
+                <span>Our Works</span>
+                <span>हामीले गरेका कामहरु</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-flex flex-column text-center font-bold text-white"
+                href="#"
+              >
+                <span>Gallery</span>
+                <span>फोटो/भिडियो</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link d-flex flex-column text-center font-bold text-white"
+                href="#"
+              >
+                <span>News</span>
+                <span>समाचार</span>
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex justify-content-center mb-2">
+            <div class="btn-group">
+              <button
+                type="button"
+                class="btn btn-primary dropdown-toggle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Account
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="">ONE</a></li>
+                <li><a class="dropdown-item" href="">ONE</a></li>
+                <li><a class="dropdown-item" href="">ONE</a></li>
+                <li><a class="dropdown-item" href="">ONE</a></li>
+                <li><a class="dropdown-item" href="">ONE</a></li>
+              </ul>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <section id="services" class="my-5 mx-5">
+      <ul
+        class="nav nav-tabs d-flex justify-content-between mb-2"
+        id="myTab"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link fw-bold active"
+            id="bc-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#bc"
+            type="button"
+            role="tab"
+            aria-controls="home"
+            aria-selected="true"
+          >
+            Business & Company
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link fw-bold"
+            id="at-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#at"
+            type="button"
+            role="tab"
+            aria-controls="profile"
+            aria-selected="false"
+          >
+            Accounting & Taxation
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link fw-bold"
+            id="dp-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#dp"
+            type="button"
+            role="tab"
+            aria-controls="contact"
+            aria-selected="false"
+          >
+            Design & Printing
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link fw-bold"
+            id="others-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#others"
+            type="button"
+            role="tab"
+            aria-controls="contact"
+            aria-selected="false"
+          >
+            Others
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            data-toggle="dropdown"
+            class="nav-link fw-bold"
+            id="dropDownTabsLink"
+            data-bs-toggle="tab"
+            data-bs-target="#others"
+            type="button"
+            role="tab"
+            aria-controls="contact"
+            aria-selected="false"
+          >
+            Others
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content my-5" id="myTabContent">
+        <!-- Bussiness & Company -->
+        <div
+          class="tab-pane fade show active"
+          id="bc"
+          role="tabpanel"
+          aria-labelledby="home-tab"
+        >
+          <div class="d-flex align-items-start">
+            <div
+              class="nav flex-column nav-pills me-3"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link mb-2 active"
+                id="v-pills-registration-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-registration"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-registration"
+                aria-selected="true"
+              >
+                Business & Company Registration
+              </button>
+              <button
+                class="nav-link mb-2"
+                id="v-pills-deregistration-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-deregistration"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-deregistration"
+                aria-selected="false"
+              >
+                De-Registration
+              </button>
+              <button
+                class="nav-link mb-2"
+                id="v-pills-update-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-update"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-update"
+                aria-selected="false"
+              >
+                Amendment and Update Related Works
+              </button>
+              <button
+                class="nav-link mb-2"
+                id="v-pills-conversion-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-conversion"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-conversion"
+                aria-selected="false"
+              >
+                Company Conversion
+              </button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade show active container-fluid"
+                id="v-pills-registration"
+                role="tabpanel"
+                aria-labelledby="v-pills-registration-tab"
+              >
+                <div class="row d-flex justify-content-around">
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header d-flex flex-column gap-2 5 bg-primary text-white text-center"
+                      >
+                        <span>Private Company Registration</span>
+                        <span>हामीले गर्ने कामहरु</span>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header d-flex flex-column gap-2 5 bg-primary text-white text-center"
+                      >
+                        <span>Public Company Registration</span>
+                        <span>हामीले गर्ने कामहरु</span>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header d-flex flex-column gap-2 5 bg-primary text-white text-center"
+                      >
+                        <span>Non Profit Company Registration</span>
+                        <span>हामीले गर्ने कामहरु</span>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header d-flex flex-column gap-2 5 bg-primary text-white text-center"
+                      >
+                        <span>Gharelu Company Registration</span>
+                        <span>हामीले गर्ने कामहरु</span>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-deregistration"
+                role="tabpanel"
+                aria-labelledby="v-pills-deregistration-tab"
+              >
+                <div class="row d-flex justify-content-around">
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header d-flex flex-column gap-2 5 bg-primary text-white text-center"
+                      >
+                        <span>All Company Deregistration</span>
+                        <span>हामीले गर्ने कामहरु</span>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Minimum Rs. 40,000 |- To Start
+                        </h5>
+                        <p class="card-text">Maximum Up to Rs. 1,00,000|-</p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header d-flex flex-column gap-2 5 bg-primary text-white text-center"
+                      >
+                        <span>Gharelu Deregistration</span>
+                        <span>हामीले गर्ने कामहरु</span>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-update"
+                role="tabpanel"
+                aria-labelledby="v-pills-update-tab"
+              >
+                <div class="row justify-content-around">
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header d-flex flex-column gap-2 5 bg-primary text-white text-center"
+                      >
+                        <span>Three Month's Return of Company</span>
+                        <span>हामीले गर्ने कामहरु</span>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header d-flex flex-column gap-2 5 bg-primary text-white text-center"
+                      >
+                        <span>Annual Return & Update</span>
+                        <span>हामीले गर्ने कामहरु</span>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header d-flex flex-column gap-2 5 bg-primary text-white text-center"
+                      >
+                        <span>Share Lagat</span>
+                        <span>हामीले गर्ने कामहरु</span>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header d-flex flex-column gap-2 5 bg-primary text-white text-center"
+                      >
+                        <span>Share Sales & Purchase</span>
+                        <span>हामीले गर्ने कामहरु</span>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header d-flex flex-column gap-2 5 bg-primary text-white text-center"
+                      >
+                        <span>Name Change</span>
+                        <span>हामीले गर्ने कामहरु</span>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header d-flex flex-column gap-2 5 bg-primary text-white text-center"
+                      >
+                        <span>Address Change</span>
+                        <span>हामीले गर्ने कामहरु</span>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header d-flex flex-column gap-2 5 bg-primary text-white text-center"
+                      >
+                        <span>Capital Increase</span>
+                        <span>हामीले गर्ने कामहरु</span>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header d-flex flex-column gap-2 5 bg-primary text-white text-center"
+                      >
+                        <span>Objective Change</span>
+                        <span>हामीले गर्ने कामहरु</span>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-conversion"
+                role="tabpanel"
+                aria-labelledby="v-pills-conversion-tab"
+              >
+                <div class="row justify-content-around">
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header bg-primary text-white text-center"
+                      >
+                        Private Company Registration
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header bg-primary text-white text-center"
+                      >
+                        Public Company Registration
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header bg-primary text-white text-center"
+                      >
+                        Non Profile Company Registration
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-12 mb-5">
+                    <div class="card shadow">
+                      <div
+                        class="card-header bg-primary text-white text-center"
+                      >
+                        Gharelu Registration
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Up to 7 Share Holders Rs. 9,999/-
+                        </h5>
+                        <p class="card-text">
+                          More Then Well Be Added Rs.500/Share Holder
+                        </p>
+                        <a href="#" class="btn btn-sm btn-primary">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="at"
+          role="tabpanel"
+          aria-labelledby="profile-tab"
+        >
+          at
+        </div>
+        <div
+          class="tab-pane fade"
+          id="dp"
+          role="tabpanel"
+          aria-labelledby="contact-tab"
+        >
+          dp
+        </div>
+        <div
+          class="tab-pane fade"
+          id="others"
+          role="tabpanel"
+          aria-labelledby="contact-tab"
+        >
+          others
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <div class="container-fluid bg-primary py-3 text-white">
+      <div class="row gy-5 ms-auto justify-content-evenly">
+        <div class="col-lg-2">
+          <img
+            src="../resources/images/small-logo.PNG"
+            style="height: 150px"
+            class="img-fluid footer-img"
+          />
+        </div>
+
+        <div class="col-lg-3 pt-2">
+          <span class="h5 font-weight-bold">Graphics Marga Pvt. Ltd.</span>
+          <br />
+          <div class="mt-2 gap-3">
+            <span class="font-weight-light" style="font-size: 0.8em"
+              >कम्पनी दर्ता नॉ: 23456
+            </span>
+            <span class="font-weight-light" style="font-size: 0.8em"
+              >पान नॉ : 4567</span
+            >
+            <br />
+            <span class="font-weight-light" style="font-size: 0.8em"
+              >Registered Office: Bharatpur-11, ByPass Road Chitwan</span
+            >
+            <br />
+            <span class="font-weight-light" style="font-size: 0.8em"
+              >Contact Office: Tulsipur-17, Bijouri, Dang and Tripureshwor
+              Kathmandu</span
+            >
+          </div>
+        </div>
+
+        <div class="col-lg-3 pt-2">
+          <span class="text-center font-weight-bold">Contact Us</span>
+          <div
+            class="mt-2 text-justify gap-3 d-flex justify-content-center flex-column"
+            style="font-size: 0.8em"
+          >
+            <span class=""
+              ><i class="fa fa-phone me-2"></i>056-522279,9855022279</span
+            >
+            <span class=""
+              ><i class="fa fa-envelope me-2"></i>Email
+              :gmarg2075@gmail.com</span
+            >
+            <span class=""
+              ><i class="fa fa-envelope me-2"></i>For V-card
+              :gmarg.vcard@gmail.com</span
+            >
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="rounded">
+            <span class="text-center font-weight-bold h5">Importants!!</span>
+
+            <ul class="list-unstyled mt-2 gap-3" style="font-size: 0.8em">
+              <li>Important Website Link</li>
+              <li>Important Telephone No.</li>
+              <li>Some Famous Online News Link</li>
+              <li>Some Famous Youtube Channel</li>
+              <li>Some Famous Radio Link</li>
+              <li>........</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="d-flex px-2 flex-wrap justify-content-between align-items-center my-3"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <a
+          href="/"
+          class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+        >
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="text-muted">© 2021 Graphic Marg Pvt. Ltd. </span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end px-4 list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-muted" href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-facebook"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+              ></path>
+            </svg>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-twitter"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+              ></path>
+            </svg>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-instagram"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+              ></path>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="../resources/owlcarousel/jquery.min.js"></script>
+    <script src="../resources/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../resources/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  </body>
+</html>
