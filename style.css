@@ -1,6 +1,3 @@
-body {
-  /* overflow-x: hidden; */
-}
 .bg-red {
   background-color: #ee1d23 !important;
 }
@@ -22,9 +19,7 @@ body {
   /* border: 0 !important; */
   border-radius: 10px;
 }
-.hero-height .card {
-  /* background-color: transparent !important;   */
-}
+
 .border-red {
   border-bottom: 2px solid rgb(236 48 48);
 }
